@@ -1,0 +1,212 @@
+/* Título principal */
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Títulos de cada sección */
+h2 {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Contenedor principal para platos y menús */
+#platosDisponibles, #menusDisponibles {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Plato en formato de tarjeta */
+.plato {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Título del plato */
+.plato h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Descripción del plato */
+.plato p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Precio del plato */
+.plato .precio {
+    font-weight: bold;
+    color: #007b00;
+}
+
+/* Contenedor del menú */
+.menu {
+    border: 1px solid #555;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Título del menú */
+.menu h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Formulario para añadir plato */
+#formularioPlato {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Etiquetas y campos del formulario */
+#formularioPlato label {
+    display: block;
+    margin-top: 10px;
+}
+
+#formularioPlato input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Botón para añadir plato */
+#btnAgregarPlato {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAgregarPlato:hover {
+    background-color: #005900;
+}
+
+/* Contenedor para la funcionalidad de eliminar plato */
+#eliminarPlato {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Estilo para el select */
+#selectPlatos {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Botón para eliminar plato */
+#btnEliminar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnEliminar:hover {
+    background-color: #c9302c;
+}
+
+/* Contenedor para el formulario de añadir menú */
+#formularioMenu {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Etiqueta y campo de entrada */
+#formularioMenu label {
+    display: block;
+    margin-top: 10px;
+}
+
+#formularioMenu input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Botón para añadir menú */
+#btnAgregarMenu {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAgregarMenu:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor para los selects */
+#selects {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Estilo para los selects */
+#selectPlatosEliminar, #selectMenus, #selectPlatosMenu {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+/* Botón para añadir plato a un menú */
+#btnAgregarPlatoMenu {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAgregarPlatoMenu:hover {
+    background-color: #218838;
+}
+
+#formularioPlato h3, #eliminarPlato h3, #formularioMenu h3, #selects h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+    color: #333;
+    text-align: left;
+}
+
+
+

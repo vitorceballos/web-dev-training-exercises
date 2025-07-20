@@ -1,0 +1,113 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #4882b6; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Título principal */
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Contenedor principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Sección de alumnos */
+#seccion-alumnos h2 {
+    font-size: 1.3em;
+    color: #4882b6; 
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #4882b6; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Título del formulario */
+#seccion-alumnos h3 {
+    color: #4882b6;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#formulario-alumno {
+    margin-top: 15px;
+}
+
+#formulario-alumno label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 1em;
+}
+
+/* Campos de entrada */
+#formulario-alumno input[type="text"],
+#formulario-alumno input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Botón de enviar */
+#formulario-alumno button {
+    background-color: #4882b6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+#formulario-alumno button:hover {
+    background-color: #336b96;
+}
+
+/* Botón para eliminar alumnos */
+#btnEliminarAlumno {
+    background-color: #4882b6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+/* Hover para el botón */
+#btnEliminarAlumno:hover {
+    background-color: #336b96; /* Color más oscuro al pasar */
+}
+

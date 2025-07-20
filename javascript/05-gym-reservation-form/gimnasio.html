@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades del Tema 5 - Gestión de Eventos y Formularios - Vitor Mendes Ceballos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Actividades del Tema 5 - Gestión de Reservas del Gimnasio</h1>
+    </header>
+
+    <main>
+        <!-- Sección de reservas -->
+        <section id="reservas">
+            <h2>Reservar una Clase</h2>
+            <!-- Formulario para reservas -->
+            <form id="formulario-reserva">
+                <label for="nombre_cliente">Nombre del Cliente:</label>
+                <input type="text" id="nombre_cliente" name="nombre_cliente" required>
+        
+                <label for="tipo_clase">Tipo de Clase:</label>
+                <select id="tipo_clase" name="tipo_clase" required>
+                    <option value="">Selecciona una clase</option>
+                    <option value="pilates">Pilates</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="body_pump">Body Pump</option>
+                    <option value="body_combat">Body Combat</option>
+                    <option value="cross_fit">Cross Fit</option>
+                </select>
+        
+                <label for="fecha_reserva">Fecha de Reserva:</label>
+                <input type="date" id="fecha_reserva" name="fecha_reserva" required>
+
+                <button type="submit">Reservar</button>
+            </form>
+            
+            <section id="lista-reservas" style="margin-top: 20px;">
+                <h3>Reservas Realizadas:</h3>
+                <ul id="reservas-list"></ul>
+            </section>
+        </section>
+    </main>
+        
+    <footer>
+        <p>&copy; 2024 Linkia FP - Desarrollo Web en Entorno Cliente</p>
+    </footer>
+</body>
+</html>
