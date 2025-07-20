@@ -34,7 +34,8 @@ $conn->close();
     <meta charset="UTF-8">
     <title>Actividades_Tema_7 - Desarrollo de Aplicaciones Web Híbridas - Vitor Mendes Ceballos</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGBGNSIjsRjPUWZOU-T40kxMUPEt7dZOQ&libraries=maps,marker&v=beta" defer></script>
+    <!-- API key removed for security -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=maps,marker&v=beta" defer></script> 
     <script>
         function initMap() {
             // Inicializamos el mapa
